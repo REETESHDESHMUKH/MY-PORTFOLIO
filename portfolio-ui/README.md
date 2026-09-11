@@ -8,9 +8,9 @@ Use Node.js 20.9 or later. Install with `npm ci`, then run `npm run dev` and ope
 
 ## Deploy on Vercel
 
-Import `REETESHDESHMUKH/MY-PORTFOLIO` into a personal Vercel Hobby account. Set the **Root Directory** to `portfolio-ui`, select the **Next.js** framework preset, and keep the standard `npm ci` install and `npm run build` build commands. No environment variables or paid services are required.
+The [Vercel project](https://vercel.com/reeteshdeshmukhs-projects/reetesh-deshmukh) is connected to `REETESHDESHMUKH/MY-PORTFOLIO` on the personal Hobby plan. Its **Root Directory** is `portfolio-ui`, its framework preset is **Next.js**, and it uses Node.js **24.x**, `npm ci` to install, and `npm run build` to build. Files outside the root directory are excluded. No environment variables or paid services are required.
 
-The completed portfolio currently lives on `redeshm/initProject`, not `main`. Deploy that branch and use it as the production branch until the work is merged. Subsequent pushes to the configured production branch publish updates automatically. Vercel supplies the public HTTPS URL; a custom domain is optional.
+The completed portfolio currently lives on `redeshm/initProject`, not `main`. Vercel tracks `redeshm/initProject` as the production branch, so subsequent pushes publish updates automatically. If the work is merged into `main`, update Branch Tracking under Settings → Environments → Production. Vercel supplies the public HTTPS URL; a custom domain is optional.
 
 The coding-profile route must run server-side, so do not enable static export. Its in-memory cache is per server instance and can reset on cold starts. Provider outages still display the labeled fallback states.
 
