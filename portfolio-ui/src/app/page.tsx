@@ -1,7 +1,5 @@
-import LandingClient from "../clients/landingClient";
+import Portfolio from "../components/portfolio/Portfolio";
 
 export default function Home() {
-  return (
-    <LandingClient/>
-  );
+  return <Portfolio />;
 }

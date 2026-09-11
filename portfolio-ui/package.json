@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test": "node --test src/lib/coding-profiles.test.mjs src/lib/coder-animation.test.mjs"
   },
   "dependencies": {
     "framer-motion": "^12.24.0",
@@ -15,10 +16,19 @@
     "liquid-glass-react": "^1.1.1",
     "lottie-react": "^2.4.1",
     "lucide-react": "^0.562.0",
-    "next": "^15.1.6",
+    "next": "15.5.24",
     "ogl": "^1.0.11",
     "react": "^19.2.3",
     "react-dom": "^19.2.3"
+  },
+  "overrides": {
+    "postcss": {
+      ".": "8.5.28",
+      "nanoid": "3.3.19"
+    },
+    "next": {
+      "sharp": "0.35.4"
+    }
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
