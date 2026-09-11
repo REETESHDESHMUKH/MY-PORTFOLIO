@@ -1,5 +1,7 @@
 # Reetesh Deshmukh — Portfolio
 
+[View the live portfolio](https://reetesh-deshmukh.vercel.app/)
+
 A Next.js portfolio in the selected Mosaic / Sage + Clay design. The desktop sidebar stays stationary while the main panel scrolls. Small screens use a collapsible navigation menu and a separate content scroll area.
 
 ## Run locally
