@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "test": "node --test src/lib/coding-profiles.test.mjs src/lib/coder-animation.test.mjs"
+    "test": "node --test src/lib/coding-profiles.test.mjs src/lib/coder-animation.test.mjs src/data/portfolio.test.mjs"
   },
   "dependencies": {
     "framer-motion": "^12.24.0",

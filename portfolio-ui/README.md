@@ -44,12 +44,12 @@ Technology logos are bundled SVGs from [Devicon](https://github.com/devicons/dev
 
 ## Checks
 
-`npm test` verifies accepted-problem deduplication, provider parsing, unrated profiles, and independent outage fallbacks. `npm run lint` checks source; `npm run build` checks the production bundle and TypeScript.
+`npm test` verifies accepted-problem deduplication, provider parsing, unrated profiles, independent outage fallbacks, coder-animation preferences, and résumé-aligned BUS PRIX content with its earlier-version source label. `npm run lint` checks source; `npm run build` checks the production bundle and TypeScript.
 
 ## Content provenance
 
 The supplied résumé is the primary source for current OCI experience, contact details, NITK degree dates, CGPA, and achievements. Additional projects, the SmartKnower internship, GVN school details, and NITK community roles come from the owner's previous [portfolio](https://github.com/REETESHDESHMUKH/portfolio/blob/5c4a99cccbbfebffd0628e03c4fb7adcb025bd1c/src/constants/index.js).
 
-The linked BUS PRIX repository documents an older Django/MySQL edition; the newer résumé describes React/PostgreSQL/Redis features. The project card explains the editions instead of implying the public repository contains all later changes. Commented-out template contributions in the old portfolio were not imported. Old sample emails, stale employment wording, and hard-coded solved counts were not copied.
+The featured BUS PRIX card follows the résumé's Bus Ticket Booking System: Python, Django REST APIs, React, PostgreSQL, and Redis, including seat selection, booking history, cancellations, transaction-safe seat locking, and cached route/schedule searches. Its GitHub link is visibly labeled “Earlier version” because that repository documents the older Django/MySQL implementation; the details explain the distinction. Commented-out template contributions in the old portfolio were not imported. Old sample emails, stale employment wording, and hard-coded solved counts were not copied.
 
 Fonts are served locally; their SIL Open Font License files are in `public/fonts`. Icons use the installed `lucide-react` package. No remote fonts, analytics, or contact-form service are required.

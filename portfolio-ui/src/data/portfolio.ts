@@ -49,10 +49,15 @@ export const projectCategories: ProjectCategory[] = ["All", "Full stack", "Web3"
 export const projects = [
   {
     id: "bus-prix", title: "BUS PRIX", subtitle: "Bus ticket booking, made simple.", category: "Full stack",
-    kind: "bus", tone: "sage", description: "A Django booking platform with authenticated route search, reservations, ticket viewing, and bus-manager registration.",
-    tags: ["Python", "Django", "MySQL", "Bootstrap"],
-    github: "https://github.com/REETESHDESHMUKH/BUS-TICKET-BOOKING-SYSTEM", demo: null,
-    details: ["Search buses by origin and destination, book after login, and view tickets.", "Bus managers can register buses and their routes.", "The linked repository is the original Django/MySQL edition. The later version described in my résumé adds React, PostgreSQL, Redis caching, and transaction-safe seat locking."],
+    kind: "bus", tone: "sage", description: "A full-stack bus ticket booking platform with route search, seat selection, user login, booking history, and cancellations, built with React and Django REST APIs.",
+    tags: ["Python", "Django", "React", "PostgreSQL", "Redis", "REST APIs"],
+    github: "https://github.com/REETESHDESHMUKH/BUS-TICKET-BOOKING-SYSTEM", githubLabel: "Earlier version", demo: null,
+    details: [
+      "Developed Django REST APIs for bus routes, trip schedules, seat availability, bookings, and cancellations.",
+      "Designed PostgreSQL schemas with transaction-safe seat locking to prevent duplicate ticket reservations.",
+      "Cached frequent route and schedule searches using Redis to reduce database load and improve response time.",
+      "This card features the version described in my résumé. The GitHub link points to the earlier Django/MySQL implementation.",
+    ],
   },
   {
     id: "charity", title: "Transparent Charity", subtitle: "Giving with a clearer trail.", category: "Web3",
